@@ -123,7 +123,7 @@ class VtBarData(VtBaseData):
         
         self.volume = EMPTY_FLOAT           # 成交量
         self.open_interest = EMPTY_INT       # 持仓量    
-    
+        self.openInterest=self.open_interest
 
 ########################################################################
 class VtTradeData(VtBaseData):
